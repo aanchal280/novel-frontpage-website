@@ -1,0 +1,41 @@
+#gallery{
+  background-color: grey;
+}
+.footer{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.image{
+  margin: 70px auto;
+  padding: 20px;
+
+}
+.image:hover{
+  -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
+}
+.title{
+  margin-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+.content{
+  text-align: center;
+  padding:20%;
+
+font-family: 'Montserrat', sans-serif;
+
+}
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar{
+
+font-family: 'Merriweather', serif;
+ text-decoration-color: black;
+}
