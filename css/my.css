@@ -5,6 +5,7 @@
   text-align: center;
   padding-top: 100px;
   padding-bottom: 80px;
+    background-color: grey;
 }
 .image{
   margin: 70px auto;
@@ -38,4 +39,93 @@ font-family: 'Montserrat', sans-serif;
 
 font-family: 'Merriweather', serif;
  text-decoration-color: black;
+}
+
+#Suggestion-list{
+  background-color:grey;
+  background-image: -webkit-linear-gradient(65deg, white 50%, #E4E9FD 50%);
+  min-height: 500px;
+  font-family: 'Merriweather', serif;
+ padding-top: 100px;
+ padding-bottom: 80px;
+
+
+}
+.list-form{
+  padding-top: 20px;
+}
+.list-form,h2{
+
+  text-align: center;
+  margin-left: 20px;
+}
+.add {
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: grey ;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 6px;
+  border-width: 0;
+  cursor: pointer;
+
+}
+input[type="text"] {
+  text-align: center;
+  height: 40px;
+  top: 10px;
+  border: none;
+  background: white;
+  font-size: 20px;
+  font-weight: 200;
+  width: 313px;
+}
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+.items{
+  padding: .5ren;
+  margin-bottom: 1.5rem;
+  border-bottom: 4px solid grey;
+    color: grey;
+}
+.list-inputs{
+  color: grey;
+  width:300px;
+  font-size: 1.4rem;
+}
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  background-color: white;
+
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: grey;
+  font-size: 18px;
+  transition: 0.2s;
+  color: white;
 }
