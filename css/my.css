@@ -104,7 +104,7 @@ input[type="text"] {
   font-size: 1.4rem;
 }
 
-.close {
+ .close {
   position: absolute;
   right: 0;
   top: 0;
@@ -115,12 +115,12 @@ input[type="text"] {
   background-color: white;
 
 }
-ul {
+.items ul {
   margin: 0;
   padding: 0;
 }
 
-ul li {
+.items ul li {
   cursor: pointer;
   position: relative;
   padding: 12px 8px 12px 40px;
